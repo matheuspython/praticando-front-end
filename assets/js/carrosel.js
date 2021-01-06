@@ -15,6 +15,7 @@ var listImages = [
 
 function criaTextoCarrosel(texto) {
     text = document.createTextNode(texto)
+    textoCarrosel.innerHTML = ''
     textoCarrosel.appendChild(text)
 }
 
