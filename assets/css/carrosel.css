@@ -1,0 +1,31 @@
+section.carrosel {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(22, 22, 22);
+}
+
+section.carrosel .container {
+    height: 100%;
+    width: 95%;
+    padding: 0 2%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#carrosel {
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    /*background-image: url('https://rollingstone.uol.com.br/media/_versions/dororo-anime-foto-divulgacao_widelg.jpg');*/
+    height: 100%;
+}
+
+.text-carrosel {
+    font-size: 1.1rem;
+    margin: 100px;
+    color: rgb(61, 199, 169);
+    float: right;
+    max-width: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
