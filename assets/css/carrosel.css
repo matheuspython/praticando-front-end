@@ -22,9 +22,9 @@ section.carrosel .container {
 }
 
 .text-carrosel {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin: 100px;
-    color: rgb(61, 199, 169);
+    color: white;
     float: right;
     max-width: 300px;
     font-family: 'Open Sans', sans-serif;
