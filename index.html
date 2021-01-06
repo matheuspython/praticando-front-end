@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="assets/css/resets.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/carrosel.css">
+    <link rel="shortcut icon" href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/a5635c50160831.58c8ff8bc211a.png" type="image/x-icon">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Meu site</title>
 </head>
 
 <body>
@@ -16,58 +23,54 @@
             <div class="logo">Empresa X</div>
             <nav class="menu-desktop">
                 <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="">Localização</a>
-                    </li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Localização</a></li>
                 </ul>
             </nav>
-
             <div onclick="abreMenuEescolheTipo('aside')" class="btn-menu-mobile"></div>
         </div>
-
         <nav class="menu-mobile">
             <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Sobre</a>
-                </li>
-                <li>
-                    <a href="">Localização</a>
-                </li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Localização</a></li>
             </ul>
         </nav>
-
-
         <nav class="menu-mobile-aside">
             <div onclick="fecharMenu()" class="metade-tela-aside"></div>
             <aside class="aside">
                 <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="">Localização</a>
-                    </li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Localização</a></li>
                 </ul>
             </aside>
             </div>
-
     </header>
+
+    <section class="carrosel">
+        <div class="container">
+            <div id="carrosel">
+                <div class="text-carrosel"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
 
 
 
     <script src="assets/js/header.js"></script>
+    <script src="assets/js/carrosel.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
 
