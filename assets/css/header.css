@@ -73,6 +73,7 @@ nav.menu-mobile-aside {
         width: 40px;
     }
     nav.menu-mobile ul {
+        position: fixed;
         width: 100%;
         background-color: rgb(26, 135, 224);
         text-align: center;
@@ -97,12 +98,13 @@ nav.menu-mobile-aside {
     /*aside*/
     nav.menu-mobile-aside {
         /*display: block;*/
+        position: fixed;
     }
     aside.aside {
         top: 0;
         right: 0;
         background-color: rebeccapurple;
-        position: absolute;
+        position: fixed;
         width: 50%;
         height: 100vh;
         text-align: center;
@@ -136,10 +138,10 @@ nav.menu-mobile-aside {
         cursor: pointer;
         top: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: rgba(219, 219, 219, 0.623);
+        background-color: rgba(175, 175, 175, 0.623);
     }
     /*fim aside*/
 }
