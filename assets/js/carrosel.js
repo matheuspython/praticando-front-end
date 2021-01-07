@@ -33,5 +33,5 @@ setInterval(() => {
     imgCarroselatual = adicionaImagemCarrosel(listImages[indice])
     text1Carroselatual = criaTextoCarrosel(listTexts[indice])
     indice++
-    if (indice == 2) { indice = 0 }
+    if (indice == 3) { indice = 0 }
 }, 8000)
