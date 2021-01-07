@@ -73,6 +73,7 @@ nav.menu-mobile-aside {
         width: 40px;
     }
     nav.menu-mobile ul {
+        z-index:999;
         position: fixed;
         width: 100%;
         background-color: rgb(26, 135, 224);
@@ -135,6 +136,7 @@ nav.menu-mobile-aside {
         top: 1px;
     }
     .metade-tela-aside {
+ z-index:999;
         cursor: pointer;
         top: 0;
         left: 0;
