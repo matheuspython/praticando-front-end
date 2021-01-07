@@ -1,0 +1,66 @@
+section.noticias {
+    width: 100%;
+    padding: 8px 0;
+}
+
+section.noticias .container {
+    width: 95%;
+    padding: 0 2%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+section.noticias .container h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.noticia {
+    width: 300px;
+    padding: 8px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.noticia .img {
+    cursor: pointer;
+    background-image: url('https://segredosdomundo.r7.com/wp-content/uploads/2019/07/25-animes-que-voce-nao-pode-deixar-de-assistir.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 35%;
+    transition: .4s;
+}
+
+.noticia .img:hover {
+    border-radius: 5px;
+}
+
+.noticia h2 {
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.noticia a {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 8px;
+    border-radius: 12px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    width: 50%;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.noticia a:hover {
+    background-color: rgb(189, 128, 15);
+    font-size: 1.1rem;
+}
