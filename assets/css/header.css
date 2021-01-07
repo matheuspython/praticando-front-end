@@ -66,7 +66,7 @@ nav.menu-mobile-aside {
     .btn-menu-mobile {
         cursor: pointer;
         display: block;
-        background-image: url('../images/menu-hamburguer.svg');
+        /* background-image: url('../images/menu-hamburguer.svg');*/
         background-position: center;
         background-size: cover;
         height: 40px;
